@@ -189,7 +189,7 @@ class Home extends Component {
       <div>
         <Header baseUrl={this.props.baseUrl} />
         <div className={classes.upcomingMoviesHeading}>
-          <span> Upcoming Movies </span>
+          <span> Upcoming Movies ... </span>
         </div>
         <GridList cols={5} className={classes.gridListUpcomingMovies}>
           {this.state.upcomingMovies.map(movie => (
